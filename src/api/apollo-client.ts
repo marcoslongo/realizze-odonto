@@ -5,7 +5,7 @@ export const GqlClient = new ApolloClient({
     cache: new InMemoryCache(),
     defaultOptions: {
         watchQuery: {
-            nextFetchPolicy: 'cache-only',
+            nextFetchPolicy: "cache-only",
         }
     }
 });
