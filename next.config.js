@@ -1,6 +1,6 @@
 const nextConfig = {
   images: {
-    domains: ['realizzeodonto.com.br'],
+    domains: ['cms.realizzeodonto.com.br'],
   },
 };
 
