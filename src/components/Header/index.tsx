@@ -6,11 +6,9 @@ import Image from "next/image";
 import LogoRealizze from "../../../public/assets/image/realizze.png";
 import { CiMenuFries } from "react-icons/ci";
 import { IoMdClose } from "react-icons/io";
-import { useWindowSize } from "@/hooks/useWindowSize";
 
 export default function Header() {
     const [isNavOpen, setIsNavOpen] = useState(false);
-    const { width } = useWindowSize();
 
     const toggleNav = () => {
         setIsNavOpen(!isNavOpen);
@@ -43,7 +41,7 @@ export default function Header() {
                                 <li><Link className="hover:text-[#A79A86] transition" href="#equipe">Equipe</Link></li>
                                 <li><Link className="hover:text-[#A79A86] transition" href="#depoimentos">Depoimentos</Link></li>
                                 <li><Link className="hover:text-[#A79A86] transition" href="#contatosection">Onde estamos</Link></li>
-                                <li><Link className="hover:text-[#A79A86] transition" href="#contato">Contato</Link></li>
+                                <li><Link className="hover:text-[#A79A86] transition" href="#contatosection">Contato</Link></li>
                             </ul>
                         </nav>
                     </div>
@@ -53,7 +51,7 @@ export default function Header() {
                 <ul className="w-full flex flex-col gap-4">
                     <li><Link className="hover:text-[#A79A86] transition" href="#sobre">Sobre</Link></li>
                     <li><Link className="hover:text-[#A79A86] transition" href="#servicos">Serviços</Link></li>
-                    <li><Link className="hover:text-[#A79A86] transition" href=" #estrutura">Estrutura</Link></li>
+                    <li><Link className="hover:text-[#A79A86] transition" href="#estrutura">Estrutura</Link></li>
                     <li><Link className="hover:text-[#A79A86] transition" href="#equipe">Equipe</Link></li>
                     <li><Link className="hover:text-[#A79A86] transition" href="#depoimentos">Depoimentos</Link></li>
                     <li><Link className="hover:text-[#A79A86] transition" href="#localizacao">Onde estamos</Link></li>
