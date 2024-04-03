@@ -49,7 +49,7 @@ export default function Header() {
                     </div>
                 </Container>
             </header>
-            <nav className={`flex transition-all duration-300 md:hidden md:pointer-events-none fixed w-[80%] h-full bg-[#141213] z-50 p-5 ${isNavOpen ? 'left-0' : 'left-[-2000px]'}`}>
+            <nav className={`flex transition-all duration-300 md:hidden md:pointer-events-none fixed w-[60%] border-r-4 border-[#A79A86] h-full bg-[#141213] z-50 p-5 ${isNavOpen ? 'left-0' : 'left-[-2000px]'}`}>
                 <ul className="w-full flex flex-col gap-4">
                     <li><Link className="hover:text-[#A79A86] transition" href="#sobre">Sobre</Link></li>
                     <li><Link className="hover:text-[#A79A86] transition" href="#servicos">Serviços</Link></li>
