@@ -42,7 +42,7 @@ export default function Header() {
                                 <li><Link className="hover:text-[#A79A86] transition" href=" #estrutura">Estrutura</Link></li>
                                 <li><Link className="hover:text-[#A79A86] transition" href="#equipe">Equipe</Link></li>
                                 <li><Link className="hover:text-[#A79A86] transition" href="#depoimentos">Depoimentos</Link></li>
-                                <li><Link className="hover:text-[#A79A86] transition" href="#contato">Onde estamos</Link></li>
+                                <li><Link className="hover:text-[#A79A86] transition" href="#contatosection">Onde estamos</Link></li>
                                 <li><Link className="hover:text-[#A79A86] transition" href="#contato">Contato</Link></li>
                             </ul>
                         </nav>
@@ -56,7 +56,7 @@ export default function Header() {
                     <li><Link className="hover:text-[#A79A86] transition" href=" #estrutura">Estrutura</Link></li>
                     <li><Link className="hover:text-[#A79A86] transition" href="#equipe">Equipe</Link></li>
                     <li><Link className="hover:text-[#A79A86] transition" href="#depoimentos">Depoimentos</Link></li>
-                    <li><Link className="hover:text-[#A79A86] transition" href="#contato">Onde estamos</Link></li>
+                    <li><Link className="hover:text-[#A79A86] transition" href="#localizacao">Onde estamos</Link></li>
                     <li><Link className="hover:text-[#A79A86] transition" href="#contato">Contato</Link></li>
                 </ul>
             </nav>

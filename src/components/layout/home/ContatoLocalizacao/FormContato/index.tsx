@@ -65,7 +65,7 @@ export function FormContato() {
   };
 
   return (
-    <div className="w-full md:w-2/5">
+    <div id="contato" className="w-full md:w-2/5 pt-36 md:pt-0">
       <h2 className="text-5xl font-bold text-[#A79A86] mb-3 text-center md:text-left">Entre em contato</h2>
       <div className="w-full">
         <form className="flex flex-wrap gap-6" onSubmit={handleSubmit(onSubmit, displayErrors)}>

@@ -1,4 +1,4 @@
-import { Contato } from "@/components/layout/home/Contato";
+import { ContatoLocalizacao } from "@/components/layout/home/ContatoLocalizacao";
 import { Depoimentos } from "@/components/layout/home/Depoimentos";
 import { Equipe } from "@/components/layout/home/Equipe";
 import { Estrutura } from "@/components/layout/home/Estrutura";
@@ -15,7 +15,7 @@ export default function App() {
       <Estrutura />
       <Equipe />
       <Depoimentos />
-      <Contato />
+      <ContatoLocalizacao />
     </main>
   );
 }
