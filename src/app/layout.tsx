@@ -3,6 +3,7 @@ import { Hind_Madurai } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import WhatsApp from "@/components/Whatsapp";
 
 const hindi = Hind_Madurai({ weight: ['400', '500', '600', '700'], subsets: ["latin"] });
 
@@ -18,10 +19,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-br" className="scroll-smooth overflow-x-hidden">
-      <body className={hindi.className}>
+      <body className={hindi.className + " relative"}>
         <Header />
         {children}
         <Footer />
+        <WhatsApp/>
       </body>
     </html>
   );
