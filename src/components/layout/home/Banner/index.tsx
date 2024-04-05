@@ -2,6 +2,7 @@ import Image from "next/image";
 import { getBanner } from "@/api/getBanner";
 import { BannerData } from "@/@types/BannerData";
 import Link from "next/link";
+import { lazy } from "react";
 
 export async function Banner() {
     const banner:BannerData = await getBanner();
@@ -20,6 +21,7 @@ export async function Banner() {
                         height={730}
                         src={banner.imagemBannerDoutores.node.mediaItemUrl}
                         alt=""
+                        priority
                     />
                 </figure>
             </div>
