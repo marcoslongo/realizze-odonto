@@ -15,7 +15,7 @@ export async function Estrutura() {
                     <article className="w-full md:w-2/5 flex flex-col gap-8">
                         <div className="w-full flex flex-col gap-2">
                             <h3 className="text-[#A79A86] font-semibold">NOSSA ESTRUTURA</h3>
-                            <h2 className="text-[#717074] font-bold text-5xl">{estrutura.tituloEstrutura}</h2>
+                            <h1 className="text-[#717074] font-bold text-5xl">{estrutura.tituloEstrutura}</h1>
                         </div>
                         <p className="text-[#A79A86] text-lg">{estrutura.textoEstrutura}</p>
                         <div className="flex items-center gap-3">
