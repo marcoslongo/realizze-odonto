@@ -6,6 +6,8 @@ import 'react-toastify/dist/ReactToastify.css';
 import emailjs from '@emailjs/browser';
 import { isMobilePhone, isEmail } from 'validator';
 import InputMask from 'react-input-mask';
+import { IoIosSend } from "react-icons/io";
+
 
 type Inputs = {
   nome: string;
@@ -90,12 +92,13 @@ export function FormContato() {
             placeholder="Mensagem:"
             {...register('mensagem', { required: 'Campo obrigatório' })}
           />
-          <input
-            className="transition bg-[#141213] hover:bg-[#A79A86] py-2 px-4 uppercase rounded-lg cursor-pointer"
+          <button
+            className="transition bg-[#141213] hover:bg-[#A79A86] py-2 px-4 uppercase rounded-lg cursor-pointer flex justify-center items-center gap-2 font-semibold"
             type="submit"
-            value={loading ? 'Enviando...' : 'Enviar'}
-            disabled={loading}
-          />
+            disabled={loading}>
+            {loading ? 'Enviando...' : 'Enviar'}
+            <IoIosSend />
+          </button>
         </form>
       </div>
       <ToastContainer />
